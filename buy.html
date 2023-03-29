@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="buy.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <title>GmaAccounts-Buy</title>
+</head>
+
+<body style="background-color: bisque;">
+  <header>
+    <nav>
+      <!-- <input type="button" value=">" id="ul-btn" style="position: absolute;"> -->
+      <input type="button" value='*' id="ul-btn" style="position: absolute;">
+      <ul class="" id="ul-1">
+
+        <li><a href="login.html">GmaAccounts</a></li>
+        <li><a href="http://">Buy</a></li>
+        <li><a href="http://">Sell</a></li>
+        <li><a href="http://">About Us</a></li>
+        <li><img src="GMAcc.png" alt="" srcset="" id="logo"></li>
+        <li>
+          <form class="form-inline my-2 my-lg-0 frm1" id="li-srcbar">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search Games" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0 srcbtn4" type="submit">Search</button>
+          </form>
+        </li>
+        <li></li>
+      </ul>
+
+    </nav>
+  </header>
+  <img src="GMAcc.png" alt="" srcset="" id="img1" onclick="showhide()">
+  <div class="menu " id="submenu">
+    <li>Profile Setting</li>
+    <hr>
+    <li><a href="http://">Edit</a></li>
+    <li><a href="http://">Favourites</a></li>
+    <li><a href="http://">Logout</a></li>
+  </div>
+
+  <script>
+    let logo_btn = document.getElementById("#img1");
+    let menu = document.getElementById("submenu");
+    function showhide() {
+
+
+      menu.classList.toggle("hide")
+    }
+  </script>
+  <div class="container text-center">
+    <div class="row">
+      <div class="col-2">
+        <li>ok</li>
+        <li>ok</li>
+      </div>
+      <div class="col-8">
+        <div class="card" style="width: 18rem;">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+        
+      </div>
+      <div class="col-2">
+      <li>2</li>
+      <li>2</li>
+      </div>
+    </div>
+  </div>
+  <!-- main section 
+<div class="container my-5">
+  <div class="card" style="width: 18rem;">
+    <img class="card-img-top" src="GMAcc.png" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Valorant</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a href="#" class="btn btn-primary">Check Offers</a>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img class="card-img-top" src="GMAcc.png" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Pubg</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a href="#" class="btn btn-primary">Check Offers</a>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img class="card-img-top" src="GMAcc.png" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Clash Of Clans</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a href="#" class="btn btn-primary">Check Offers</a>
+    </div>
+  </div>
+</div>
+<hr>
+
+<marquee behavior="" direction="left"><h4>There Are only this three games are available.</h4></marquee>
+<hr> -->
+
+<!-- <div class="section">
+  <h2><center>GmaAccounts</center></h2>
+   <nav class="section2"> 
+  <li><a href="http://">About US</a></li>
+  <li><a href="http://">Contact Us</a></li>
+  <li><a href="http://">Copyright</a></li>
+  </nav>
+</div> -->
+
+
+
+
+
+
+
+
+
+
+<script src="buy.js"></script>
+</body>
+
+</html>

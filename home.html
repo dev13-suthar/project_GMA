@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.min.js"
+    integrity="sha384-heAjqF+bCxXpCWLa6Zhcp4fu20XoNIA98ecBC1YkdXhszjoejr5y9Q77hIrv8R9i"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="home2.css">
+  <link rel="icon" href="GMAcc.png" type="image/icon type">
+
+  <title>GmaAccounts</title>
+</head>
+
+<body>
+
+  <header>
+    <nav>
+      <!-- <input type="button" value=">" id="ul-btn" style="position: absolute;"> -->
+      <input type="button" value='*' id="ul-btn" style="position: absolute;">
+      <ul class="" id="ul-1">
+
+        <li><a href="login.html">GmaAccounts</a></li>
+        <li><a href="buy.html">Buy</a></li>
+        <li><a href="http://">Sell</a></li>
+        <li><a href="#footer_scroll";>About Us</a></li>
+        <li><img src="GMAcc.png" alt="" srcset="" id="logo"></li>
+        <li>
+          <form class="form-inline my-2 my-lg-0 frm1" id="li-srcbar">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search Games" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0 srcbtn" type="submit">Search</button>
+          </form>
+        </li>
+        <li></li>
+      </ul>
+
+    </nav>
+  </header>
+  <img src="GMAcc.png" alt="" srcset="" id="img1" onclick="showhide()">
+  <div class="menu " id="submenu">
+    <li>Profile Setting</li>
+    <hr>
+    <li><a href="http://">Edit</a></li>
+    <li><a href="http://">Favourites</a></li>
+    <li><a href="http://">Logout</a></li>
+  </div>
+
+
+
+
+
+
+
+  <script>
+    let logo_btn = document.getElementById("#img1");
+    let menu = document.getElementById("submenu");
+    function showhide() {
+
+
+      menu.classList.toggle("hide")
+    }
+
+
+  </script>
+
+  <section id="jbtron">
+    <div class="jumbotron my-1 mx-1 ">
+      <h1 class="display-4">welcome</h1>
+      <p class="lead">GmaAccounts- Resource for buying and selling Gmaaccounts.</p>
+      <hr class="my-4">
+      <p>Buy and Sell Cheap Game Accounts at GmaAccounts. We provide only trending game accounts such as Valorant,Pubg
+        etc.
+      </p>
+      <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+    </div>
+  </section>
+  <hr>
+  <!-- first box -->
+
+  <div class="container">
+    <div class="container-fluid">
+
+      <div class="card cd " style="width: 18rem;">
+        <img class="card-img-top imgf" src="coc.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Clash of Clans</h5>
+          <p class="card-text">Clash of Clans is a popular iPad/iPhone/iPod/Android game created by "Supercell". It has
+            been available on all devices
+          </p>
+          <a href="#" class="btn btn-primary" id="butn1">Go somewhere</a>
+        </div>
+      </div>
+
+
+
+      <!-- second box -->
+      <div class="can">
+        <div class="card cd " style="width: 18rem;">
+          <img class="card-img-top imgf" src="valorant.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Valorant</h5>
+            <p class="card-text">The definitive wiki resource for Riot Games' competitive 5v5 character-based tactical
+              shooter, VALORANT, that was released on June 2nd, 2020. Set in a near-future Earth,
+              content.</p>
+            <a href="#" class="btn btn-primary" id="butn2">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- third box -->
+
+      <div class="can">
+        <div class="card cd " style="width: 18rem;">
+          <img class="card-img-top" src="bgmi.png" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">BGMI</h5>
+            <p class="card-text">Battlegrounds Mobile India is the Indian version of PUBG Mobile, exclusively for
+              players in India.It is an online multiplayer battle royale game</p>
+            <a href="#" class="btn btn-primary" id="butn3">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <br><br>
+
+      <!-- fourth box -->
+      <!-- <div class="can">
+    <div class="card cd " style="width: 18rem;">
+      <img class="card-img-top" src="ff.jpeg" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Free Fire</h5 >
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+          content.</p>
+        <a href="#" class="btn btn-primary"   id="butn4">Go somewhere</a>
+      </div>
+    </div>
+    </div> -->
+
+    </div>
+  </div>
+  <div class="footer container-fluid" id="footer_scroll">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-2" style="float: left;">
+          <img src="GMAcc.png" alt="" srcset="" style="height: 100px;width: 122px; border-radius: 49%;">
+        </div>
+        <div class="col-8">
+         <ul class="footer_ul">
+          <li><img src="phone-call.png" alt="" srcset=""><a href="http://">Call Us</a></li>
+          <li><img src="envelope.png" alt="" srcset=""> <a href="http://">Mail Us</a></li>
+          <li><img src="envelope.png" alt="" srcset=""> <a href="http://">About Us</a></li>
+         </ul>
+        </div>
+        <div class="col-2" style="display: flex;justify-content: center;align-items: center; flex-direction: column;">
+          <img src="copyright.png" alt="" srcset="" style="height: 50px;width: 60px;">
+          <p style="color: bisque;">All rights reserved for GmaAccounts</p>
+        </div>
+      
+
+    </div>
+  </div>
+
+
+  <script src="home.js"></script>
+</body>
+
+</html>

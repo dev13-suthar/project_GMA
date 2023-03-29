@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+
+<body>
+    <header id="header-main">
+    <img src="GMAcc.png" alt="" srcset="" id="logo">
+    <h2 id="heading">Welcome To GMAcc</h2>
+    </header>
+    <form method="post" action="home.html">
+        <h2>Create a new account</h2>
+        <label for="firstname">First name:</label>
+        <input type="text" id="firstname" name="firstname" placeholder="First Name" required>
+        <label for="lastname">Last name:</label>
+        <input type="text" id="lastname" name="lastname" placeholder="Last Name">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter a email address" required>
+        <label for="password">Mobile:</label>
+        <input type="tel" id="mobile" name="Mobile" placeholder="enter a mobile number" required>
+        
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="enter password" required>
+        <label for="password"> Confirm Password:</label>
+        <input type="password" id="password" name=" Confirm password" placeholder="enter confirm password" required>
+
+
+        <button><a href="home.html" target="_self">Submit</a></button>
+    </form>
+</body>
+<script>
+    let header = document.getElementById('header-main');
+    let heading = document.getElementById('heading');
+    // console.log(header,heading);
+
+    // function hovered(){
+    //     heading.style.color = "rgb(187, 160, 108);"
+    // }
+    const hovered = ()=>{
+        header.style.background = "gainsboro";
+        heading.style.color = "rgb(187, 160, 108)";
+    } 
+
+    const hover_leave = ()=>{
+        header.style.background = "rgb(187, 160, 108)";
+        heading.style.color = "gainsboro"
+    }
+
+    header.addEventListener("mouseover", hovered);
+    header.addEventListener("mouseleave", hover_leave);
+
+
+    
+</script>
+
+</html>
